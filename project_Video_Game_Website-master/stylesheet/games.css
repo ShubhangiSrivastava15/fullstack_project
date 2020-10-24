@@ -1,0 +1,270 @@
+/*Universal Selector for Reseting */
+* {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-size: 100%;
+        vertical-align: baseline;
+        background: transparent;
+    }
+
+body{
+	font-family:'Source Sans Pro', sans-serif;
+	background-color:#78a83e;
+}
+.header-content-home{
+	background-image:url("../img/game_background.jpg");
+	background-size:cover;
+}
+
+.header-content-about{
+	background-image:url("../img/game_background_2.jpg");
+	background-size:cover;
+}
+
+.header-content-contact{
+	background-image:url("../img/game_background_3.jpg");
+	background-size:cover;
+}
+
+.header-content-join{
+	background-image:url("../img/game_background_4.png");
+	background-size:cover;
+}
+
+#header{
+	height:69vh;
+	width:100vw;
+	
+}
+
+#header-body > h1{
+	color:white;
+	width:31%;
+	border-bottom:2px solid white;
+	border-bottom-left-radius:4px;
+	border-bottom-right-radius:4px;
+}
+
+#header-body > h3{
+	color:white;
+}
+
+#header-body > p{
+	color:#d8d8d8;
+
+}
+
+#header-body{
+	position:relative;
+	top:5%;
+	left:7%;
+	width:60%;
+}
+
+.nav-img{
+	width:110px;
+	height:110px;
+	margin-top:-130px;
+	margin-left:60px;
+	margin-right:60px;
+}
+
+.nav-img:hover{
+	-webkit-filter: drop-shadow(2px 2px 0 #94ff00)
+            drop-shadow(-2px 2px 0 #94ff00)
+            drop-shadow(2px -2px 0 #94ff00)
+            drop-shadow(-2px -2px 0 #94ff00);
+
+	filter: drop-shadow(2px 2px 0 #94ff00)
+	        drop-shadow(-2px 2px 0 #94ff00)
+	        drop-shadow(2px -2px 0 #94ff00)
+	        drop-shadow(-2px -2px 0 #94ff00);
+}
+.navRow{
+	display:flex;
+	justify-content:center;
+}
+
+.footer{
+	text-align:center;
+	color:#147c00;
+}
+
+.footer i{
+	color:#147c00;
+	font-size:72px;
+	margin-left:20px;
+	margin-right:20px;
+}
+
+.footer-author{
+	font-weight:bold;
+}
+
+i:hover{
+	color:#94ff00;
+}
+
+.rowItem{
+	display:inline-block;
+	vertical-align:top;
+}
+
+#home, #about, #contact, #join{
+	display:none;
+	position:relative;
+	top:-95px;
+	font-size:24px;
+	color:#aced53;
+	margin-left:80px;
+	margin-right:60px;
+}
+
+.container{
+	margin-top:-20px;
+	width:150%;
+	margin:auto;
+	background-color:green;
+	opacity:0.9;
+	border-radius:15px;
+}
+
+.content{
+	padding:5px;
+	width:46%;
+	display:inline-block;
+	vertical-align:top;
+	font-family: "Source Sans Pro", sans-serif;
+	color:#94ff00;
+}
+
+.content-img{
+	float: left;
+	margin-right:20px;
+	border-radius:15px;
+	width:50px;
+	height:50px;
+}
+
+.contact-page{
+	font-size:50px;
+}
+
+a{
+	color:white;
+	text-decoration:none;
+	font-weight:bold;
+	}
+
+@media screen and (min-width:600px) and (max-width:900px){
+	.navRow{
+		display:flex;
+		justify-content:center;
+	}
+	.nav-img{
+		width:90px;
+		height:90px;
+		margin-top:-80px;
+		margin-left:30px;
+		margin-right:30px;
+	}
+	#header-body{
+		position:relative;
+		top:10%;
+		left:10%;
+		width:60%;
+	}
+
+	#home, #about, #contact, #join{
+		display:none;	
+		position:relative;
+		top:-85px;
+		font-size:24px;
+		color:#aced53;
+		margin-left:40px;
+		margin-right:30px;
+	}
+	.container{
+		margin-top:-20px;
+		width:145%;
+		margin:auto;
+		background-color:green;
+		opacity:0.9;
+		border-radius:15px;
+	}
+
+	.content{
+		padding:5px;
+		width:46%;
+		display:inline-block;
+		vertical-align:top;
+		font-family: "Source Sans Pro", sans-serif;
+		font-size:13px;
+		color:#94ff00;
+	}
+}
+
+@media screen and (max-width:599px){
+	.navRow{
+		display:flex;
+		justify-content:center;
+	}
+	.nav-img{
+		width:60px;
+		height:60px;
+		margin-top:-160px;
+		margin-left:25px;
+		margin-right:25px;
+	}
+	#header-body{
+		position:relative;
+		top:7%;
+		left:10%;
+		width:60%;
+	}
+
+	#home, #about, #contact, #join{
+		display:none;	
+		position:relative;
+		top:-55px;
+		font-size:16px;
+		color:#aced53;
+		margin-left:30px;
+		margin-right:25px;
+	}
+	.container{
+		margin-top:-20px;
+		width:145%;
+		margin:auto;
+		background-color:green;
+		opacity:0.9;
+		border-radius:15px;
+	}
+
+	.content{
+		padding:5px;
+		width:46%;
+		display:inline-block;
+		vertical-align:top;
+		font-family: "Source Sans Pro", sans-serif;
+		font-size:12px;
+		color:#94ff00;
+	}
+
+	.footer i{
+		color:#147c00;
+		font-size:60px;
+		margin-left:20px;
+		margin-right:20px;
+	}
+
+	#header-body > h1{
+		color:white;
+		width:105%;
+		border-bottom:2px solid white;
+		border-bottom-left-radius:4px;
+		border-bottom-right-radius:4px;
+	}
+}
